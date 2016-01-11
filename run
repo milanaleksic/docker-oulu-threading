@@ -1,0 +1,6 @@
+#!/bin/bash
+
+docker run -ti --rm \
+  -p 6697:5000 \
+  -e "TERM=xterm-256color" \
+  oulu $*
